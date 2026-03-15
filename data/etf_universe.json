@@ -1,0 +1,189 @@
+[
+    {
+        "ticker": "VTI",
+        "name": "Vanguard Total Stock Market ETF",
+        "asset_class": "US Equity",
+        "price": 227.50,
+        "expense_ratio": 0.03,
+        "dividend_yield": 1.3,
+        "annual_return_5yr": 9.0,
+        "volatility": 15.8,
+        "description": "Broad exposure to the entire US stock market — large, mid, and small cap."
+    },
+    {
+        "ticker": "SCHD",
+        "name": "Schwab US Dividend Equity ETF",
+        "asset_class": "US Equity",
+        "price": 78.40,
+        "expense_ratio": 0.06,
+        "dividend_yield": 3.4,
+        "annual_return_5yr": 10.5,
+        "volatility": 13.5,
+        "description": "High-quality US dividend payers. Lower volatility, higher income."
+    },
+    {
+        "ticker": "ESGV",
+        "name": "Vanguard ESG US Stock ETF",
+        "asset_class": "US Equity (ESG)",
+        "price": 82.15,
+        "expense_ratio": 0.09,
+        "dividend_yield": 1.1,
+        "annual_return_5yr": 8.5,
+        "volatility": 15.2,
+        "description": "US stocks screened for environmental, social, and governance criteria."
+    },
+    {
+        "ticker": "VXUS",
+        "name": "Vanguard Total International Stock ETF",
+        "asset_class": "International Equity",
+        "price": 58.90,
+        "expense_ratio": 0.07,
+        "dividend_yield": 2.9,
+        "annual_return_5yr": 5.5,
+        "volatility": 16.8,
+        "description": "Broad international equity — developed and emerging markets combined."
+    },
+    {
+        "ticker": "VWO",
+        "name": "Vanguard Emerging Markets ETF",
+        "asset_class": "Emerging Markets",
+        "price": 43.25,
+        "expense_ratio": 0.08,
+        "dividend_yield": 2.5,
+        "annual_return_5yr": 3.8,
+        "volatility": 21.5,
+        "description": "Higher-risk equities from developing economies — China, India, Brazil."
+    },
+    {
+        "ticker": "EFA",
+        "name": "iShares MSCI EAFE ETF",
+        "asset_class": "International Developed",
+        "price": 79.60,
+        "expense_ratio": 0.07,
+        "dividend_yield": 2.8,
+        "annual_return_5yr": 5.0,
+        "volatility": 15.5,
+        "description": "Developed markets only (Europe, Australasia, Far East) — excludes US and EM."
+    },
+    {
+        "ticker": "VGT",
+        "name": "Vanguard Information Technology ETF",
+        "asset_class": "Sector — Technology",
+        "price": 525.80,
+        "expense_ratio": 0.10,
+        "dividend_yield": 0.6,
+        "annual_return_5yr": 18.0,
+        "volatility": 22.1,
+        "description": "Concentrated tech exposure — Apple, Microsoft, Nvidia. High growth, high volatility."
+    },
+    {
+        "ticker": "VHT",
+        "name": "Vanguard Health Care ETF",
+        "asset_class": "Sector — Healthcare",
+        "price": 260.35,
+        "expense_ratio": 0.10,
+        "dividend_yield": 1.2,
+        "annual_return_5yr": 8.5,
+        "volatility": 14.8,
+        "description": "Healthcare sector — pharma, biotech, medical devices. Defensive growth."
+    },
+    {
+        "ticker": "BND",
+        "name": "Vanguard Total Bond Market ETF",
+        "asset_class": "US Bonds",
+        "price": 72.50,
+        "expense_ratio": 0.03,
+        "dividend_yield": 3.3,
+        "annual_return_5yr": 1.5,
+        "volatility": 4.1,
+        "description": "Broad US investment-grade bonds — government and corporate."
+    },
+    {
+        "ticker": "BNDX",
+        "name": "Vanguard Total International Bond ETF",
+        "asset_class": "International Bonds",
+        "price": 49.80,
+        "expense_ratio": 0.07,
+        "dividend_yield": 2.8,
+        "annual_return_5yr": 0.8,
+        "volatility": 5.2,
+        "description": "International investment-grade bonds, hedged to USD."
+    },
+    {
+        "ticker": "VTIP",
+        "name": "Vanguard Short-Term Inflation-Prot ETF",
+        "asset_class": "TIPS (Inflation-Protected)",
+        "price": 49.20,
+        "expense_ratio": 0.04,
+        "dividend_yield": 4.5,
+        "annual_return_5yr": 2.5,
+        "volatility": 2.8,
+        "description": "Inflation-protected treasuries. Returns adjust with CPI."
+    },
+    {
+        "ticker": "VGSH",
+        "name": "Vanguard Short-Term Treasury ETF",
+        "asset_class": "Short-Term Treasuries",
+        "price": 58.10,
+        "expense_ratio": 0.04,
+        "dividend_yield": 4.0,
+        "annual_return_5yr": 1.8,
+        "volatility": 1.8,
+        "description": "Near cash equivalent — very low risk, short-term US government bonds."
+    },
+    {
+        "ticker": "VNQ",
+        "name": "Vanguard Real Estate ETF",
+        "asset_class": "Real Estate (REITs)",
+        "price": 85.70,
+        "expense_ratio": 0.12,
+        "dividend_yield": 3.8,
+        "annual_return_5yr": 4.2,
+        "volatility": 18.2,
+        "description": "US real estate investment trusts — office, residential, industrial."
+    },
+    {
+        "ticker": "GLD",
+        "name": "SPDR Gold Shares",
+        "asset_class": "Gold",
+        "price": 215.40,
+        "expense_ratio": 0.40,
+        "dividend_yield": 0.0,
+        "annual_return_5yr": 10.0,
+        "volatility": 14.8,
+        "description": "Physical gold. Classic hedge against inflation and geopolitical risk."
+    },
+    {
+        "ticker": "PDBC",
+        "name": "Invesco Optimum Yield Diversified Cmdty",
+        "asset_class": "Commodities",
+        "price": 14.55,
+        "expense_ratio": 0.59,
+        "dividend_yield": 0.0,
+        "annual_return_5yr": 5.2,
+        "volatility": 14.0,
+        "description": "Diversified commodities — energy, metals, agriculture. Broad real asset exposure."
+    },
+    {
+        "ticker": "QQQ",
+        "name": "Invesco QQQ Trust",
+        "asset_class": "US Growth",
+        "price": 480.20,
+        "expense_ratio": 0.20,
+        "dividend_yield": 0.5,
+        "annual_return_5yr": 16.5,
+        "volatility": 20.5,
+        "description": "Nasdaq-100 index — top 100 non-financial companies. Growth-oriented."
+    },
+    {
+        "ticker": "ARKK",
+        "name": "ARK Innovation ETF",
+        "asset_class": "Disruptive Innovation",
+        "price": 52.30,
+        "expense_ratio": 0.75,
+        "dividend_yield": 0.0,
+        "annual_return_5yr": 2.0,
+        "volatility": 38.2,
+        "description": "High-conviction bets on disruptive tech — AI, genomics, fintech. Very high risk."
+    }
+]
