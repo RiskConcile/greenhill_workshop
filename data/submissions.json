@@ -1,0 +1,15 @@
+[
+  {
+    "id": "85ee5082-22a0-4f7b-bbd4-13cddde53a31",
+    "timestamp": "2026-03-15T18:13:35.596427",
+    "name": "Test user",
+    "email": "user@website.com",
+    "initial_investment": 5000,
+    "investment_horizon": "5-10 years",
+    "risk_tolerance": "Aggressive",
+    "liquidity_needs": "Low \u2014 funds can stay invested long-term",
+    "return_expectation": "8-12% (growth focus)",
+    "income_needs": "No income needed",
+    "preferences": "Hi, I am looking to invest long term as I am just 20 years old. I also want some exposure to gold in my portfolio."
+  }
+]
