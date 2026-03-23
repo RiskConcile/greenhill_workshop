@@ -1,3 +1,8 @@
+# Data files — auto-created by the app on first run
+data/submissions.json
+data/portfolios.json
+data/asset_universe.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
