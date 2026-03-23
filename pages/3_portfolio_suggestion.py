@@ -31,14 +31,8 @@ def load_submissions() -> list[dict]:
 st.title("Portfolio Suggestion")
 st.caption("Each step below makes a real LLM call to Claude via the Anthropic API.")
 
-# Check for API key
-api_key = st.session_state.get("api_key", "")
-if not api_key:
-    st.warning(
-        "Please enter your **Anthropic API key** in the sidebar to use AI-powered "
-        "portfolio generation."
-    )
-    st.stop()
+# API key comes from environment variable ANTHROPIC_API_KEY
+api_key = None  # base.py will read from env var automatically
 
 submissions = load_submissions()
 if not submissions:

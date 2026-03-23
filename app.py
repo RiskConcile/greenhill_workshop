@@ -14,21 +14,8 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ── API Key Management (sidebar) ────────────────────────────
+# ── API Key Management ───────────────────────────────────────
 st.sidebar.title("Settings")
-
-api_key = st.sidebar.text_input(
-    "Anthropic API Key",
-    type="password",
-    placeholder="sk-ant-...",
-    help="Required for AI-powered portfolio generation. Get one at console.anthropic.com",
-)
-if api_key:
-    st.session_state["api_key"] = api_key
-    st.sidebar.success("API key set")
-elif "api_key" not in st.session_state:
-    st.sidebar.warning("Enter your API key to enable AI features")
-
 st.sidebar.divider()
 
 # ── Quick stats ──────────────────────────────────────────────
