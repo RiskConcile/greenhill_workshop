@@ -1,0 +1,168 @@
+[
+  {
+    "id": "80ac513a-ac36-4c97-9d94-95e6e8a3482a",
+    "generated_at": "2026-03-25T14:50:00.000000+00:00",
+    "investor_name": "Rohan Mehta",
+    "risk_label": "Moderate",
+    "risk_score": 5.5,
+    "narrative": "Rohan is a 34-year-old software engineer with a 3\u20135 year investment horizon who is building savings toward a house down payment, and his portfolio has been constructed to reflect a Moderate risk posture that balances his enthusiasm for growth with the reality of his near-term capital need. The portfolio is predominantly equity-oriented, with meaningful allocations across U.S. large-cap, total-market, and international stocks to capture the global equity premium, and a targeted growth tilt toward the technology sector to reflect his stated preferences. A small allocation to gold and real estate adds diversification and some inflation protection, while a modest fixed-income buffer helps reduce overall volatility and preserves flexibility should Rohan need partial access to funds within the next three years. The most significant limitation of this portfolio is that its blended expected return of approximately 6\u20137% per year is likely to fall well short of Rohan\u2019s 12% annual target \u2014 reaching that level of return would require taking on materially higher concentration and volatility risk than is appropriate for a Moderate profile with a medium-term horizon. Rohan should carefully consider whether his return expectation is realistic given his timeline and risk tolerance, and may wish to consult a financial adviser before making any investment decisions.",
+    "warnings": [
+      "Expected return may not meet the investor's target of 12.0%. The blended portfolio is estimated to return approximately 6.7% annually, which falls materially short of Rohan's 12% target; achieving 12% would require a significantly more concentrated allocation to high-growth equities and a willingness to accept commensurately higher drawdown risk.",
+      "Concern on VXUS: Currency and geopolitical risk from EM exposure (~8.6% China).",
+      "Concern on VXUS: Historical return of ~5\u20137% is well below the 12% target.",
+      "Concern on VOO: Expected return of ~7\u20139% falls short of the 12% annual target.",
+      "Concern on VOO: Max 1-year drawdown of ~19% may be uncomfortable given 4-year horizon.",
+      "Concern on VTI: Expected return of ~7\u20139% falls short of the 12% target.",
+      "Concern on VTI: Slightly higher volatility than VOO due to small- and mid-cap inclusion.",
+      "Concern on QQQ: Beta of 1.15 and std dev of ~24% exceed Moderate risk thresholds.",
+      "Concern on QQQ: Historical max drawdown of ~83% and extreme tech concentration pose significant downside risk.",
+      "Concern on GLD: Expected return of ~4\u20136% is well below the 12% target.",
+      "Concern on GLD: No income generated; 100% concentration in a single commodity.",
+      "Concern on VNQ: Std dev of ~22.1% is at the ceiling of Moderate risk tolerance.",
+      "Concern on VNQ: Max 1-year drawdown of ~18% is high relative to a 4-year horizon with Medium liquidity.",
+      "Concern on AGG: Expected yield of ~4% is far below the 12% return target.",
+      "Concern on AGG: No stated preference for bonds; acts as a drag on portfolio growth.",
+      "Concern on TLT: Ongoing -37.5% drawdown as of March 2026 is a significant active risk.",
+      "Concern on TLT: Duration sensitivity (~17 years) creates high interest rate risk over a 4-year horizon."
+    ],
+    "allocation": [
+      {
+        "ticker": "VXUS",
+        "asset_class": "International ex-U.S. equities",
+        "weight_pct": 16.9,
+        "rationale": "VXUS is the top-ranked asset and directly fulfils Rohan's preference for international market exposure while contributing below-market volatility, making it the anchor position in a diversified Moderate portfolio."
+      },
+      {
+        "ticker": "VOO",
+        "asset_class": "U.S. large-cap equities",
+        "weight_pct": 14.1,
+        "rationale": "As the global benchmark equity holding, VOO provides foundational U.S. large-cap exposure with an expense ratio of 0.03% and deep liquidity that suits Rohan's medium liquidity need over a 4-year horizon."
+      },
+      {
+        "ticker": "VTI",
+        "asset_class": "U.S. total market equities",
+        "weight_pct": 14.1,
+        "rationale": "VTI complements VOO by extending U.S. equity coverage into mid- and small-cap growth companies, broadening domestic equity diversification consistent with Rohan's comfort with equity volatility."
+      },
+      {
+        "ticker": "QQQ",
+        "asset_class": "U.S. large-cap growth equities (Nasdaq-100)",
+        "weight_pct": 13.4,
+        "rationale": "QQQ provides the technology and growth tilt Rohan explicitly requested and is the portfolio's primary vehicle for return upside, though its allocation is deliberately moderated given its risk characteristics exceed strict Moderate thresholds."
+      },
+      {
+        "ticker": "GLD",
+        "asset_class": "Commodities (Precious Metals)",
+        "weight_pct": 12.0,
+        "rationale": "Gold serves as a portfolio stabiliser with low equity correlation, protecting against equity drawdowns that could be especially damaging given Rohan's 4-year timeline and need to preserve capital for a house down payment."
+      },
+      {
+        "ticker": "VNQ",
+        "asset_class": "U.S. real estate equities (REITs)",
+        "weight_pct": 10.8,
+        "rationale": "VNQ adds real estate income and inflation-hedging exposure as a satellite position, offering some return support while diversifying away from pure technology and equity market risk."
+      },
+      {
+        "ticker": "AGG",
+        "asset_class": "U.S. investment-grade bonds",
+        "weight_pct": 9.7,
+        "rationale": "A modest bond allocation via AGG acts as a volatility dampener and capital preservation buffer that is appropriate given Rohan's medium liquidity need and the real possibility of needing partial access within 3 years."
+      },
+      {
+        "ticker": "TLT",
+        "asset_class": "Long-duration U.S. government bonds",
+        "weight_pct": 9.0,
+        "rationale": "TLT's negative equity correlation provides a defensive hedge against equity market downturns, though its position is kept small given the ongoing drawdown and elevated interest rate sensitivity over Rohan's 4-year horizon."
+      }
+    ],
+    "asset_class_summary": {
+      "equities_pct": 69.3,
+      "fixed_income_pct": 18.7,
+      "alternatives_pct": 12.0
+    },
+    "disclaimer": "This output is generated by an educational prototype and does not constitute financial advice. Past performance is not indicative of future results. Consult a qualified financial adviser before making investment decisions."
+  },
+  {
+    "id": "7db5bccb-3399-475c-8a85-6da400c063ae",
+    "generated_at": "2026-03-25T00:00:00.000000+00:00",
+    "investor_name": "Test user 2",
+    "risk_label": "Aggressive",
+    "risk_score": 9.0,
+    "narrative": "Test user 2 is an investor with a very long 15-year horizon, a very high risk tolerance, and no near-term liquidity needs, and the portfolio has been constructed to reflect a fully Aggressive risk posture with the primary goal of maximising long-run growth while satisfying explicit preferences for high-return assets, commodities, and emerging markets exposure. The portfolio is dominated by equity allocations spanning U.S. technology growth, broad domestic equities, and international equities — including meaningful emerging markets representation — supplemented by a meaningful commodity allocation through gold that directly addresses the stated preference. Smaller fixed-income positions are included to provide a structural hedge and modest volatility buffer, though their contribution to returns is limited. The most important caveat is that even this Aggressive allocation is estimated to return approximately 7.4% per year on a blended basis, which falls far short of the investor's 17% annual target — achieving that level of return is not feasible within a diversified multi-asset portfolio and would require extreme concentration in the highest-risk assets with commensurate risk of severe drawdowns. The investor should carefully recalibrate return expectations against the realities of long-run capital market returns before making any investment decisions.",
+    "warnings": [
+      "Expected return may not meet the investor's target of 17.0%. The blended portfolio is estimated to return approximately 7.4% annually, which falls materially short of the investor's 17% target; achieving 17% would require extremely concentrated positions in high-growth equities and a willingness to accept correspondingly severe drawdown risk.",
+      "Concern on QQQ: Historical max drawdown of ~83% requires conviction to hold through deep corrections.",
+      "Concern on QQQ: Zero financial sector exposure creates a structural sector gap.",
+      "Concern on VXUS: Currency and geopolitical risk from EM exposure (~8.6% China).",
+      "Concern on VXUS: Historical returns ~5\u20137% are well below the 17% annual target.",
+      "Concern on VTI: Expected return ~7\u20139% falls materially short of the 17% annual target.",
+      "Concern on VTI: Significant overlap with QQQ at the mega-cap tech level.",
+      "Concern on GLD: Expected return ~4\u20136% is well below the 17% target.",
+      "Concern on GLD: No income generated; 100% concentration in a single commodity.",
+      "Concern on VOO: Expected return ~7\u20139% significantly below 17% target.",
+      "Concern on VOO: Substantial overlap with VTI \u2014 holding both introduces redundancy.",
+      "Concern on VNQ: High interest rate sensitivity; max 1-yr drawdown ~18%.",
+      "Concern on VNQ: Recent underperformance (2025: ~-3.57% total return); sector in structural headwinds.",
+      "Concern on AGG: Expected yield ~4% is far below the 17% return target; represents a substantial return drag for an Aggressive investor.",
+      "Concern on AGG: No stated preference for bonds and low liquidity need removes the main justification for bond inclusion.",
+      "Concern on TLT: Ongoing ~37.5% drawdown as of March 2026 is a significant active risk.",
+      "Concern on TLT: Duration sensitivity (~17 years) creates high interest rate risk that conflicts with a 15-year equity-growth mandate."
+    ],
+    "allocation": [
+      {
+        "ticker": "QQQ",
+        "asset_class": "U.S. large-cap growth equities (Nasdaq-100)",
+        "weight_pct": 16.8,
+        "rationale": "As the highest-conviction growth engine in the universe, QQQ earns the top allocation for this Aggressive investor whose 15-year horizon and high-return preference are a natural match for Nasdaq-100 tech concentration."
+      },
+      {
+        "ticker": "VXUS",
+        "asset_class": "International ex-U.S. equities",
+        "weight_pct": 14.6,
+        "rationale": "VXUS directly fulfils this investor's stated preference for emerging markets while contributing genuine geographic diversification across 45+ countries and a below-market beta that moderates overall portfolio volatility."
+      },
+      {
+        "ticker": "VTI",
+        "asset_class": "U.S. total market equities",
+        "weight_pct": 14.3,
+        "rationale": "VTI provides the broadest possible U.S. equity foundation \u2014 spanning large, mid, and small caps \u2014 which is appropriate for an Aggressive investor with a 15-year horizon who wants maximum domestic equity participation."
+      },
+      {
+        "ticker": "GLD",
+        "asset_class": "Commodities (Precious Metals)",
+        "weight_pct": 13.7,
+        "rationale": "Gold directly addresses this investor's preference for commodities exposure, and its historically low correlation to equities provides a genuine portfolio stabiliser over the long 15-year horizon."
+      },
+      {
+        "ticker": "VOO",
+        "asset_class": "U.S. large-cap equities",
+        "weight_pct": 13.5,
+        "rationale": "VOO's ultra-low cost and broad S&P 500 exposure complement VTI as a core U.S. equity holding, adding a large-cap tilt that has historically delivered consistent long-run equity premiums."
+      },
+      {
+        "ticker": "VNQ",
+        "asset_class": "U.S. real estate equities (REITs)",
+        "weight_pct": 13.0,
+        "rationale": "VNQ adds a real asset income layer that diversifies away from pure equity market beta, appropriate for an Aggressive investor whose long horizon can absorb REIT cycle volatility and interest rate sensitivity."
+      },
+      {
+        "ticker": "AGG",
+        "asset_class": "U.S. investment-grade bonds",
+        "weight_pct": 7.3,
+        "rationale": "A small AGG allocation provides a minimal fixed-income buffer that slightly dampens portfolio volatility without materially reducing expected returns for this Aggressive investor with no near-term liquidity need."
+      },
+      {
+        "ticker": "TLT",
+        "asset_class": "Long-duration U.S. government bonds",
+        "weight_pct": 6.8,
+        "rationale": "TLT's negative equity correlation offers a structural hedge against severe equity drawdowns, though its position is intentionally small given the ongoing historic drawdown and duration risk over a 15-year growth-oriented mandate."
+      }
+    ],
+    "asset_class_summary": {
+      "equities_pct": 72.2,
+      "fixed_income_pct": 14.1,
+      "alternatives_pct": 13.7
+    },
+    "disclaimer": "This output is generated by an educational prototype and does not constitute financial advice. Past performance is not indicative of future results. Consult a qualified financial adviser before making investment decisions."
+  }
+]
