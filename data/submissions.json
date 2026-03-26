@@ -1,0 +1,42 @@
+[
+  {
+    "id": "85fb2920-1825-45a3-8548-5e21ce9afaaf",
+    "timestamp": "2026-03-24T22:43:42.837273+00:00",
+    "name": "Test user 2",
+    "investment_horizon": "10+ years",
+    "risk_tolerance": "Very high",
+    "liquidity_needs": "Low \u2014 no near-term withdrawal expected",
+    "annual_return_expectation_pct": 17.0,
+    "preferences_or_constraints": "high return assets, also invest in commodities and emerging markets."
+  },
+  {
+    "id": "c3f7a812-4e91-47d3-b805-9d2e6f1a3c58",
+    "timestamp": "2026-03-25T14:22:00.000000+00:00",
+    "name": "Margaret Osei",
+    "investment_horizon": "5\u201310 years",
+    "risk_tolerance": "Conservative",
+    "liquidity_needs": "Medium \u2014 may need partial access within 3 years",
+    "annual_return_expectation_pct": 5.5,
+    "preferences_or_constraints": "Retired primary school teacher, 67, focused on wealth preservation and steady income; avoids equities above 30% allocation and prefers dividend-paying funds."
+  },
+  {
+    "id": "a1d84c29-7f53-4b1e-9302-e8c5d47b6f21",
+    "timestamp": "2026-03-25T14:35:00.000000+00:00",
+    "name": "Rohan Mehta",
+    "investment_horizon": "3\u20135 years",
+    "risk_tolerance": "High",
+    "liquidity_needs": "Medium \u2014 may need partial access within 3 years",
+    "annual_return_expectation_pct": 12.0,
+    "preferences_or_constraints": "34-year-old software engineer saving for a house down payment; comfortable with equity volatility but wants some exposure to international markets and tech growth."
+  },
+  {
+    "id": "f2e91b4d-83ac-4d17-b062-7c5a1e9d2f44",
+    "timestamp": "2026-03-25T15:10:00.000000+00:00",
+    "name": "Amara Diallo",
+    "investment_horizon": "10+ years",
+    "risk_tolerance": "Moderate",
+    "liquidity_needs": "Low \u2014 no near-term withdrawal expected",
+    "annual_return_expectation_pct": 8.0,
+    "preferences_or_constraints": "42-year-old nurse building a retirement fund; prefers ESG-compliant funds and wants no direct exposure to fossil fuel or weapons companies."
+  }
+]
