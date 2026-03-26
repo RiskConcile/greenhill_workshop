@@ -28,5 +28,15 @@
     "liquidity_needs": "Medium \u2014 may need partial access within 3 years",
     "annual_return_expectation_pct": 12.0,
     "preferences_or_constraints": "34-year-old software engineer saving for a house down payment; comfortable with equity volatility but wants some exposure to international markets and tech growth."
+  },
+  {
+    "id": "f2e91b4d-83ac-4d17-b062-7c5a1e9d2f44",
+    "timestamp": "2026-03-25T15:10:00.000000+00:00",
+    "name": "Amara Diallo",
+    "investment_horizon": "10+ years",
+    "risk_tolerance": "Moderate",
+    "liquidity_needs": "Low \u2014 no near-term withdrawal expected",
+    "annual_return_expectation_pct": 8.0,
+    "preferences_or_constraints": "42-year-old nurse building a retirement fund; prefers ESG-compliant funds and wants no direct exposure to fossil fuel or weapons companies."
   }
 ]

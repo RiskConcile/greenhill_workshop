@@ -38,7 +38,7 @@ Intake Agent          Market Agent
 
 - **Streamlit** is used only at the boundary: intake form and final display.
 - **All Claude calls happen through this CLI session** via subagents and slash commands / skills.
-- **Storage** is a flat JSON file (`data/portfolios.json`).
+- **Storage** uses flat JSON files in `data/` (`submissions.json`, `assets.json`, `portfolios.json`).
 
 ---
 
@@ -47,7 +47,7 @@ Intake Agent          Market Agent
 | Layer | Technology |
 |---|---|
 | UI | Streamlit (Python) |
-| Storage | JSON file (`data/portfolios.json`) |
+| Storage | JSON files in `data/` (submissions, assets, portfolios) |
 | Agent runtime | Claude Code CLI (this session) |
 | Language | Python 3 |
 | Environment | `.venv` (virtualenv, managed locally) |
@@ -63,27 +63,29 @@ greenhill_workshop/
 ├── README.md                  # Workshop overview
 ├── .python-version            # Pinned Python version
 ├── .venv/                     # Local virtual environment (not committed)
-├── agents/                    # Agent prompt files and logic
-│   ├── intake_agent.md        # Intake Agent: parses investor submission
-│   ├── market_agent.md        # Market Agent: gathers market context
-│   ├── portfolio_agent.md     # Portfolio Agent: constructs candidate portfolio
-│   └── master_agent.md        # Master Agent: coordinates all subagents
+├── agents/                    # Agent prompt files (to be populated)
 ├── data/
-│   └── portfolios.json        # Stored investor submissions and results
-├── commands/                  # Slash command definitions (.md files)
-│   ├── screen.md              # /screen — gather info on a security
-│   ├── profile-risk.md        # /profile-risk — summarize an investor profile
-│   └── compare-assets.md      # /compare-assets — compare securities
-├── skills/                    # Reusable skill definitions
-│   ├── intake-parsing.md
-│   ├── market-screening.md
-│   ├── portfolio-construction.md
-│   └── report-generation.md
+│   ├── submissions.json       # Raw investor form submissions
+│   ├── assets.json            # Screened ETF asset universe
+│   └── portfolios.json        # Generated portfolio recommendations
+├── skills/                    # Reusable skill definitions (each in its own subdirectory)
+│   ├── investor-profiler/
+│   │   └── SKILL.md           # Transforms investor submission into structured risk profile
+│   ├── asset-screener/
+│   │   └── SKILL.md           # Screens asset universe against investor risk profile
+│   ├── portfolio-constructor/
+│   │   └── SKILL.md           # Builds final allocation from screened shortlist
+│   └── report-writer/
+│       └── SKILL.md           # Synthesizes all outputs into final recommendation
 ├── app/
 │   ├── form.py                # Streamlit investor intake form
 │   └── display.py             # Streamlit portfolio result display
 └── .claude/
-    └── settings.local.json    # Claude Code local permissions
+    ├── settings.local.json    # Claude Code local permissions
+    └── commands/              # Slash command definitions (.md files)
+        ├── screen.md          # /screen — research an ETF from the web
+        ├── add-investor.md    # /add-investor — generate a random investor persona
+        └── run-pipeline.md    # /run-pipeline — run the full 4-agent pipeline
 ```
 
 ---
@@ -103,8 +105,8 @@ greenhill_workshop/
 - No docstrings on simple functions — let the code speak for itself.
 
 ### Storage
-- Investor submissions are stored in `data/portfolios.json` as a JSON array.
-- Each entry should include at minimum: `name`, `timestamp`, and the form fields.
+- Investor submissions are stored in `data/submissions.json`, screened assets in `data/assets.json`, and generated portfolios in `data/portfolios.json` — all as JSON arrays.
+- Each entry should include at minimum: `name`, `timestamp`, and the relevant fields.
 - Do not use a database. JSON file storage is intentional for workshop simplicity.
 
 ### Streamlit
