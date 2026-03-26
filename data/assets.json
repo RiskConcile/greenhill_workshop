@@ -278,5 +278,194 @@
     },
     "suitability": ["Moderate", "Aggressive"],
     "verdict": "VNQ is a strong candidate for a robo-advisor asset universe as the primary real estate / REIT allocation — its low cost (0.13%), diversified REIT exposure, and deep liquidity make it effective as a satellite holding (5–15%) in moderate and aggressive portfolios to capture real estate income and inflation-hedging properties; its high volatility, interest-rate sensitivity, and 73% historical max drawdown make it unsuitable as a standalone holding or for conservative risk profiles."
+  },
+  {
+    "ticker": "SPY",
+    "full_name": "SPDR S&P 500 ETF Trust, issued by State Street Global Advisors (SPDR)",
+    "investment_strategy": "Passive unit investment trust tracking the S&P 500 Index. Full replication of all 504 S&P 500 constituents, market-cap weighted. Asset class: U.S. large-cap equities. Expense ratio: 0.0945%. Launched January 1993 — the oldest U.S.-listed ETF.",
+    "key_holdings": {
+      "total_holdings": 504,
+      "top_10_holdings": {
+        "NVDA": "7.58%",
+        "AAPL": "6.58%",
+        "MSFT": "4.93%",
+        "AMZN": "3.61%",
+        "GOOGL": "3.01%",
+        "AVGO": "2.69%",
+        "GOOG": "2.41%",
+        "META": "2.31%",
+        "TSLA": "1.92%",
+        "BRK.B": "1.57%"
+      },
+      "top_10_holdings_weight_pct": 36.59,
+      "sector_weights": {
+        "technology_pct": 34.24,
+        "financials_pct": 12.05,
+        "consumer_discretionary_pct": 10.47,
+        "health_care_pct": 8.84,
+        "industrials_pct": 8.41,
+        "communication_services_pct": 8.20
+      },
+      "notes": "Top 10 holdings represent ~36.6% of fund — significant mega-cap tech concentration. UIT structure causes slight dividend cash drag versus open-end ETF peers like VOO."
+    },
+    "risk_profile": {
+      "beta": 1.0,
+      "annualized_standard_deviation": "~15.2% (30-year); ~18.6% (since inception)",
+      "max_drawdown_1yr": "-9.98% (2025)",
+      "max_drawdown_since_inception": "-55.19% (March 9, 2009 — GFC; recovery took 869 trading sessions)",
+      "notes": "SPY is the benchmark — beta 1.0 by definition. Key risk is mega-cap tech concentration (top 10 = 36.6%). UIT structure prevents securities lending income and creates minor dividend drag. Near-perfect correlation with VOO; both should not be held in full position sizes simultaneously."
+    },
+    "liquidity": {
+      "aum_usd": "~$666.6 billion",
+      "avg_daily_volume": "~81.5 million shares/day (3-month avg)",
+      "notes": "Most-traded ETF in the world by dollar volume. Penny-wide bid-ask spreads. Preferred by institutional traders and options market participants over VOO due to superior liquidity and active options chain."
+    },
+    "suitability": ["Moderate", "Aggressive"],
+    "verdict": "SPY is the world's most liquid ETF and an ideal core U.S. large-cap equity building block for a robo-advisor asset universe; note that it nearly perfectly overlaps with VOO — if both are in the universe, the portfolio constructor should treat them as substitutes and avoid double-allocating to the same index."
+  },
+  {
+    "ticker": "IWM",
+    "full_name": "iShares Russell 2000 ETF, issued by BlackRock (iShares)",
+    "investment_strategy": "Passive replication of the Russell 2000 Index — approximately 1,947 U.S. small-cap stocks, market-cap weighted. Provides exposure to the small-cap segment of the U.S. equity market. Asset class: U.S. small-cap equities. Expense ratio: 0.19%.",
+    "key_holdings": {
+      "total_holdings": 1947,
+      "top_10_holdings_weight_pct": 5.6,
+      "sector_weights": {
+        "health_care_pct": 17.6,
+        "industrials_pct": 16.8,
+        "financials_pct": 15.7,
+        "technology_pct": 15.2,
+        "consumer_cyclical_pct": 9.3
+      },
+      "notes": "Extremely low concentration — top 10 holdings represent only ~5–6% of NAV across ~1,947 securities. Sector profile tilts heavily toward Healthcare, Industrials, and Financials versus large-cap benchmarks."
+    },
+    "risk_profile": {
+      "beta": 1.33,
+      "annualized_standard_deviation": "~24.5%",
+      "max_drawdown_1yr": "~-24%",
+      "max_drawdown_since_inception": "-59.05% (2008–2009 GFC)",
+      "notes": "High beta (1.33) and volatility (~24.5%) make this one of the most volatile broad-market ETFs. Small-cap stocks are more cyclically sensitive and have higher liquidity risk in the underlying holdings during market stress. Suitable only for investors with high risk tolerance and long time horizons."
+    },
+    "liquidity": {
+      "aum_usd": "~$72.8 billion",
+      "avg_daily_volume": "~55 million shares/day",
+      "notes": "Highly liquid at the ETF level with tight bid-ask spreads. However, underlying small-cap holdings can cause NAV discount widening and spread deterioration during market stress events."
+    },
+    "suitability": ["Aggressive"],
+    "verdict": "IWM is a strong small-cap satellite allocation for aggressive portfolios seeking the small-cap return premium, but its high beta, elevated expense ratio, and severe historical drawdowns make it inappropriate for conservative or moderate investors."
+  },
+  {
+    "ticker": "EEM",
+    "full_name": "iShares MSCI Emerging Markets ETF, issued by BlackRock (iShares)",
+    "investment_strategy": "Passive replication of the MSCI Emerging Markets Index — large- and mid-cap equities across 24 emerging market countries, market-cap weighted. Provides broad exposure to EM equities including China, Taiwan, India, and South Korea. Asset class: Emerging market equities. Expense ratio: 0.72%. Launched April 2003.",
+    "key_holdings": {
+      "total_holdings": 1621,
+      "top_10_holdings": {
+        "TSMC": "13.17%",
+        "Samsung Electronics": "5.68%",
+        "Tencent": "3.97%",
+        "SK Hynix": "3.40%",
+        "Alibaba": "2.56%"
+      },
+      "sector_weights": {
+        "information_technology_pct": 28.2,
+        "financials_pct": 22.2,
+        "consumer_discretionary_pct": 11.7,
+        "communication_services_pct": 9.3
+      },
+      "geographic_weights": {
+        "china_pct": 27.6,
+        "taiwan_pct": 20.6,
+        "india_pct": 15.3,
+        "south_korea_pct": 13.3
+      },
+      "notes": "High country concentration in China + Taiwan (48.2% combined) creates significant geopolitical risk. TSMC alone represents ~13% of the fund."
+    },
+    "risk_profile": {
+      "beta": 0.63,
+      "annualized_standard_deviation": "~18.5% (1yr); ~27.2% (since inception)",
+      "max_drawdown_1yr": "~-20.96%",
+      "max_drawdown_since_inception": "-66.4% (November 2008; took ~120 months to recover)",
+      "notes": "Beta below 1.0 vs S&P 500 but EM volatility is high in absolute terms. Decade-long underperformance vs. U.S. equities since 2013. High expense ratio (0.72%) — lower-cost alternative IEMG charges 0.09%. Key risks: currency, geopolitical (China-Taiwan), regulatory, and liquidity in underlying markets."
+    },
+    "liquidity": {
+      "aum_usd": "~$25.3 billion",
+      "avg_daily_volume": "~17.9 million shares/day",
+      "notes": "Most liquid legacy EM ETF in the U.S. market. However, AUM has declined significantly as investors migrated to the lower-cost IEMG. Bid-ask spreads remain tight given deep secondary market activity."
+    },
+    "suitability": ["Aggressive"],
+    "verdict": "EEM is viable as an EM satellite for aggressive, long-horizon portfolios, but its high expense ratio (0.72%), severe historical drawdowns, decade-long underperformance vs. U.S. equities, and geopolitical concentration make it a borderline inclusion — consider IEMG as a lower-cost alternative."
+  },
+  {
+    "ticker": "BND",
+    "full_name": "Vanguard Total Bond Market ETF, issued by Vanguard",
+    "investment_strategy": "Passive index tracking ETF that replicates the Bloomberg U.S. Aggregate Float Adjusted Index. Provides broad exposure to the entire U.S. investment-grade bond market including Treasuries, agency bonds, corporate bonds, and mortgage-backed securities. Asset class: U.S. investment-grade fixed income. Expense ratio: 0.03%.",
+    "key_holdings": {
+      "total_holdings": 17686,
+      "top_10_holdings_weight_pct": 4.83,
+      "asset_allocation": {
+        "us_treasuries_pct": 50,
+        "corporate_bonds_pct": 25,
+        "agency_mbs_pct": 20,
+        "abs_other_pct": 5
+      },
+      "notes": "Extremely broad diversification across ~17,686 bonds — top 10 holdings represent less than 5% of NAV. Duration approximately 6.0 years, indicating moderate interest rate sensitivity."
+    },
+    "risk_profile": {
+      "beta": 0.08,
+      "annualized_standard_deviation": "~5.2%",
+      "max_drawdown_1yr": "~-4.5% (trailing 12 months through early 2026)",
+      "max_drawdown_since_inception": "-18.8% (August 2020 – October 2022, Federal Reserve rate-hiking cycle)",
+      "notes": "Near-zero equity beta makes BND a true diversifier in equity-heavy portfolios. Primary risk is interest rate duration (~6.0 years) — a 1% rise in rates causes approximately -6% price impact. Low credit risk given investment-grade-only mandate. Near-identical to AGG but larger ($395B vs $138B AUM) and same ultra-low cost."
+    },
+    "liquidity": {
+      "aum_usd": "~$395 billion",
+      "avg_daily_volume": "~7–8 million shares/day",
+      "notes": "One of the largest bond ETFs in the world. Extremely tight bid-ask spreads (~$0.01/share). Deep secondary market with multiple authorized participants. Suitable for both retail and large institutional order sizes."
+    },
+    "suitability": ["Conservative", "Moderate"],
+    "verdict": "BND is a foundational fixed-income building block for any robo-advisor asset universe — its ultra-low cost (0.03%), massive scale (~$395B AUM), and broad investment-grade bond coverage make it an ideal anchor for conservative and moderate portfolios seeking income, capital preservation, and equity diversification."
+  },
+  {
+    "ticker": "VEA",
+    "full_name": "Vanguard FTSE Developed Markets ETF, issued by Vanguard",
+    "investment_strategy": "Passive index tracking ETF that replicates the FTSE Developed All Cap ex U.S. Index. Provides broad exposure to large-, mid-, and small-cap stocks in developed international markets outside the United States, including Europe, Japan, Australia, Canada, and South Korea. Asset class: International developed market equities. Expense ratio: 0.03%.",
+    "key_holdings": {
+      "total_holdings": 3916,
+      "top_10_holdings": {
+        "Samsung Electronics": "2.18%",
+        "ASML Holding": "1.77%",
+        "SK Hynix": "1.24%",
+        "Roche Holding": "1.03%",
+        "Novartis": "1.00%",
+        "HSBC Holdings": "0.99%",
+        "AstraZeneca": "0.98%",
+        "Nestle": "0.86%",
+        "Toyota Motor": "0.80%"
+      },
+      "top_10_holdings_weight_pct": 11.96,
+      "sector_weights": {
+        "financials_pct": 22.92,
+        "industrials_pct": 18.09,
+        "technology_pct": 9.46,
+        "consumer_discretionary_pct": 9.23,
+        "health_care_pct": 8.90
+      },
+      "notes": "Extremely broad diversification across ~3,916 securities in 40+ developed countries. Top 10 holdings represent only ~12% of assets. Sector profile tilts toward Financials and Industrials versus the technology-heavy U.S. market."
+    },
+    "risk_profile": {
+      "beta": 0.82,
+      "annualized_standard_deviation": "~16.5%",
+      "max_drawdown_1yr": "~-10.5%",
+      "max_drawdown_since_inception": "-60.7% (March 9, 2009 — global financial crisis)",
+      "notes": "Beta below 1.0 vs S&P 500 reflects lower correlation to U.S. equities, providing genuine diversification. Key risks: currency risk (non-USD holdings), geopolitical risk, and relative underperformance vs. U.S. equities during USD strength cycles. Low concentration risk given ~3,916 holdings across 40+ countries."
+    },
+    "liquidity": {
+      "aum_usd": "~$205 billion",
+      "avg_daily_volume": "~4.56 million shares/day",
+      "notes": "One of the largest international equity ETFs in the world. Deep secondary market with multiple authorized participants. Tight bid-ask spreads. Suitable for both retail and institutional order sizes."
+    },
+    "suitability": ["Moderate", "Aggressive"],
+    "verdict": "VEA is a strong addition to a robo-advisor asset universe as the primary developed-market international equity building block — its ultra-low cost (0.03%), broad diversification across ~3,916 securities in 40+ countries, and below-1.0 beta vs the S&P 500 make it an effective complement to U.S. equity holdings like VOO or VTI."
   }
 ]
